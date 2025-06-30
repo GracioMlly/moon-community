@@ -1,12 +1,12 @@
 @font-face {
   font-family: "Monigue";
-  src: url("./assets/fonts/monigue.otf");
+  src: url("../assets/fonts/monigue.otf");
   font-display: swap;
 }
 
 @font-face {
   font-family: "Overused Grotesk";
-  src: url("./assets/fonts/OverusedGrotesk-VF.woff2");
+  src: url("../assets/fonts/OverusedGrotesk-VF.woff2");
   font-display: swap;
 }
 
