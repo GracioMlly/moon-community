@@ -529,7 +529,7 @@ main {
 
     .action4 {
       font-family: "Monigue";
-      background-image: url("./assets/images/blue-sky.png");
+      background-image: url("../assets/images/blue-sky.png");
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
@@ -609,7 +609,7 @@ main {
 
     .newsletter__left {
       flex: 0 1 480px;
-      background-image: url("./assets/images/newsletter-abstract-bg.webp");
+      background-image: url("../assets/images/newsletter-abstract-bg.webp");
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
