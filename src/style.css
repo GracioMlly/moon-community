@@ -1,0 +1,210 @@
+@font-face {
+  font-family: "Monigue";
+  src: url("./assets/fonts/monigue.otf");
+}
+
+@font-face {
+  font-family: "Overused Grotesk";
+  src: url("./assets/fonts/OverusedGrotesk-VF.woff2");
+}
+
+/* Design system */
+
+:root {
+  --black: hsl(32, 23%, 11%);
+  --gray-900: hsl(0, 0%, 13%);
+  --gray-800: hsl(0, 0%, 22%);
+  --gray-700: hsl(0, 0%, 32%);
+  --gray-600: hsl(0, 0%, 41%);
+  --gray-500: hsl(0, 0%, 50%);
+  --gray-400: hsl(0, 0%, 60%);
+  --gray-300: hsl(0, 0%, 69%);
+  --gray-200: hsl(0, 0%, 78%);
+  --gray-100: #e0e0e0;
+  --white: hsl(0, 0%, 100%);
+
+  --orange-900: hsl(31, 39%, 14%);
+  --orange-800: hsl(33, 46%, 25%);
+  --orange-700: hsl(34, 50%, 37%);
+  --orange-600: hsl(34, 52%, 49%);
+  --orange-500: #f4aa48;
+  --orange-400: hsl(33, 93%, 71%);
+  --orange-300: hsl(32, 98%, 78%);
+  --orange-200: hsl(32, 100%, 86%);
+  --orange-100: hsl(37, 62%, 96%);
+
+  --brown-900: hsl(35, 29%, 85%);
+  --brown-500: hsl(37, 42%, 93%);
+  --brown-100: hsl(40, 41%, 93%);
+  --brown-50: hsl(34, 50%, 95%);
+
+  --spacing-0: 0rem;
+  --spacing-0-25: 0.25rem;
+  --spacing-0-50: 0.5rem;
+  --spacing-0-75: 0.75rem;
+  --spacing-1: 1rem;
+  --spacing-1-5: 1.5rem;
+  --spacing-2: 2rem;
+  --spacing-2-5: 2.5rem;
+  --spacing-3: 3rem;
+  --spacing-3-5: 3.5rem;
+  --spacing-4: 4rem;
+  --spacing-4-5: 4.5rem;
+  --spacing-5: 5rem;
+  --spacing-5-5: 5.5rem;
+  --spacing-6: 6rem;
+  --spacing-7: 7rem;
+  --spacing-8: 8rem;
+  --spacing-9: 9rem;
+  --spacing-10: 10rem;
+  --spacing-12: 12rem;
+  --spacing-14: 14rem;
+  --spacing-16: 16rem;
+  --spacing-20: 20rem;
+  --spacing-24: 24rem;
+
+  --width: 90vw;
+  --width-sm: 80vw;
+  --max-width: 1472px;
+}
+
+.display__large {
+  font-family: "Monigue", sans-serif;
+  font-size: 7rem;
+  line-height: 1;
+}
+
+.display__medium {
+  font-family: "Monigue", sans-serif;
+  font-size: 5.375rem;
+  line-height: 1;
+}
+
+.display__small {
+  font-family: "Monigue", sans-serif;
+  font-size: 4.625rem;
+  line-height: 1;
+}
+
+.headline__huge {
+  font-family: "Monigue", sans-serif;
+  font-size: 3.375rem;
+  line-height: 1;
+}
+
+.headline__large {
+  font-family: "Monigue", sans-serif;
+  font-size: 2.875rem;
+  line-height: 1;
+}
+
+.headline__big {
+  font-family: "Monigue", sans-serif;
+  font-size: 2.375rem;
+  line-height: 1.25;
+}
+
+.headline__medium {
+  font-family: "Monigue", sans-serif;
+  font-size: 2rem;
+  line-height: 1.25;
+}
+
+.headline__small {
+  font-family: "Monigue", sans-serif;
+  font-size: 1.625rem;
+  line-height: 1.38;
+}
+
+.text__big {
+  font-size: 1.375rem;
+  line-height: 1.45;
+}
+
+.text__medium {
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+
+.text__small {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.text__tiny {
+  font-size: 0.875rem;
+  line-height: 1.71;
+}
+
+/* Design system */
+
+/* Default styles */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Monigue", sans-serif;
+  font-weight: 400;
+}
+
+body {
+  font-family: "Overused Grotesk";
+  font-size: 1rem;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  color: var(--black);
+  background-color: var(--orange-100);
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.w__regular {
+  font-weight: 400;
+}
+.w__medium {
+  font-weight: 500;
+}
+.w__semi-bold {
+  font-weight: 600;
+}
+
+.rectangle {
+  padding: var(--spacing-0-75) var(--spacing-1-5);
+}
+
+.rectangle2 {
+  padding: var(--spacing-0-75) var(--spacing-2);
+}
+
+.square {
+  padding: var(--spacing-1);
+}
+
+.pill {
+  padding: var(--spacing-0-75) var(--spacing-1);
+  border-radius: 999rem;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  column-gap: var(--spacing-0-50);
+  background-color: var(--white);
+  border: 1px solid var(--brown-900);
+}
+
+/* Default styles */
