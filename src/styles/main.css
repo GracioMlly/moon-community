@@ -69,7 +69,7 @@ header {
 
     h1 {
       font-size: clamp(3.375rem, 2.2653rem + 4.7347vw, 7rem);
-      line-height: 1.025;
+      line-height: 1;
       display: flex;
       flex-direction: column;
       overflow: hidden;
@@ -85,7 +85,7 @@ header {
 
     p {
       margin-top: var(--spacing-1);
-      animation: fade-in 0.9s 0.5s ease both;
+      animation: fade-in 0.9s 0.5s ease-out both;
     }
   }
 
@@ -1171,7 +1171,7 @@ footer {
     .slider {
       .slides {
         grid-template-columns: 20vw 20vw 20vw 46vw;
-        animation-duration: 20s;
+        animation-duration: 30s;
       }
     }
   }
@@ -1227,6 +1227,16 @@ footer {
             flex: 0 0 auto;
           }
         }
+      }
+    }
+  }
+}
+
+@media screen and (width >= 1500px) {
+  header {
+    .slider {
+      .slides {
+        animation-duration: 40s;
       }
     }
   }
