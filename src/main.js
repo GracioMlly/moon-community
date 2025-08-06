@@ -12,7 +12,7 @@ gsap.utils.toArray(".press p span").forEach((el) => {
     scrollTrigger: {
       trigger: el,
       // markers: true,
-      start: "top 90%",
+      start: "top 75%",
     },
   });
 });
@@ -26,7 +26,7 @@ gsap.to(".vision h2 span", {
   scrollTrigger: {
     trigger: ".vision h2",
     // markers: true,
-    start: "top 90%",
+    start: "top 75%",
   },
 });
 
@@ -39,7 +39,7 @@ gsap.to(".vision > div p span.rectangle", {
   scrollTrigger: {
     trigger: ".vision > div p",
     // markers: true,
-    start: "top 90%",
+    start: "top 75%",
   },
 });
 
@@ -50,7 +50,7 @@ gsap.to(".vision > div p + p", {
   scrollTrigger: {
     trigger: ".vision > div p + p",
     // markers: true,
-    start: "top 90%",
+    start: "top 75%",
   },
 });
 
@@ -63,7 +63,7 @@ gsap.to(".solutions__left h2 span", {
   scrollTrigger: {
     trigger: ".solutions__left h2",
     // markers: true,
-    start: "top 90%",
+    start: "top 75%",
   },
 });
 
@@ -76,7 +76,7 @@ gsap.to(".solutions__left > p span", {
   scrollTrigger: {
     trigger: ".solutions__left > p",
     // markers: true,
-    start: "top 90%",
+    start: "top 75%",
   },
 });
 
@@ -87,7 +87,7 @@ gsap.to(".solutions__left div p", {
   scrollTrigger: {
     trigger: ".solutions__left div",
     // markers: true,
-    start: "top 90%",
+    start: "top 75%",
   },
 });
 
@@ -98,7 +98,7 @@ gsap.to(".reasons__top h2", {
   ease: "power1.out",
   scrollTrigger: {
     trigger: ".reasons__top",
-    start: "top 90%",
+    start: "top 65%",
     // markers: true,
   },
 });
@@ -109,7 +109,7 @@ gsap.to(".reasons__top h2 + p", {
   ease: "power1.out",
   scrollTrigger: {
     trigger: ".reasons__top h2 + p",
-    start: "top 85%",
+    start: "top 65%",
     // markers: true,
   },
 });
@@ -120,7 +120,7 @@ gsap.to(".reasons__top p + p", {
   ease: "power1.out",
   scrollTrigger: {
     trigger: ".reasons__top p + p",
-    start: "top 90%",
+    start: "top 65%",
   },
 });
 
@@ -132,7 +132,7 @@ gsap.to(".innovation__right h2 span", {
   ease: "power1.out",
   scrollTrigger: {
     trigger: ".innovation__right h2",
-    start: "top 90%",
+    start: "top 75%",
     // markers: true,
   },
 });
@@ -143,7 +143,7 @@ const actionsTimeline = gsap.timeline({
   },
   scrollTrigger: {
     trigger: ".actions__top h2",
-    start: "top 90%",
+    start: "top 75%",
     // markers: true,
   },
 });
@@ -174,7 +174,7 @@ gsap.utils.toArray(".action4 span").forEach((el) => {
 
     scrollTrigger: {
       trigger: el,
-      start: "center 90%",
+      start: "center 75%",
       // markers: true
     },
   });
@@ -188,7 +188,7 @@ gsap.to(".collaboration h2 span", {
   ease: "power1.out",
   scrollTrigger: {
     trigger: ".collaboration h2",
-    start: "top 90%",
+    start: "top 75%",
     // markers: true
   },
 });
@@ -200,7 +200,7 @@ gsap.to(".newsletter__right div h2", {
   ease: "power1.out",
   scrollTrigger: {
     trigger: ".newsletter__right div img",
-    start: "bottom 90%",
+    start: "bottom 75%",
     // markers: true
   },
 });
@@ -210,7 +210,7 @@ gsap.to(".partnerships__top h2", {
   duration: 0.75,
   scrollTrigger: {
     trigger: ".partnerships__top h2",
-    start: "top 95%",
+    start: "top 75%",
     // markers: true,
   },
 });
