@@ -105,12 +105,11 @@ gsap.to(".reasons__top h2", {
 
 gsap.to(".reasons__top h2 + p", {
   opacity: 1,
-  y: 0,
   duration: 0.75,
   ease: "power1.out",
   scrollTrigger: {
-    trigger: ".reasons__top h2",
-    start: "bottom 95%",
+    trigger: ".reasons__top h2 + p",
+    start: "top 85%",
     // markers: true,
   },
 });
@@ -120,8 +119,8 @@ gsap.to(".reasons__top p + p", {
   duration: 1,
   ease: "power1.out",
   scrollTrigger: {
-    trigger: ".reasons__top h2 + p",
-    start: "bottom 95%",
+    trigger: ".reasons__top p + p",
+    start: "top 90%",
   },
 });
 
